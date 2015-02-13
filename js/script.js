@@ -20,9 +20,6 @@ console.log("Sparky is years"+" "+sparkyAge +" "+ "in human years, but is"+" "+d
 
 
 
-
-
-
     //Slice Of Pie part 1/
 
 
@@ -45,3 +42,15 @@ console.log("Each person ate"+" "+eachPerson+" "+"number of slices.");
 var sparkySlice = totalSlice % partyGoers;
 console.log(sparkySlice);
 console.log("Spartk ate"+" "+ sparkySlice+ " "+ "that night.");
+
+
+    //Average Shopping Bill/
+
+var groceryArray = [345, 453, 568, 134, 765]; //the list of all five weeks
+var groceryTotal = groceryArray[0]+groceryArray[1]+groceryArray[2]+groceryArray[3]+groceryArray[4]; // the total of the 5 weeks
+var groceryAverage = groceryTotal/ 5; //the average spent for 5 weeks
+console.log(groceryArray);
+console.log(groceryTotal);
+console.log(groceryAverage);
+
+console.log("You have spent a total of $"+groceryTotal+" on groceries over 5 weeks. That is an average of $"+groceryAverage+" per week");
