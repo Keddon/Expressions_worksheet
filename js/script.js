@@ -54,3 +54,18 @@ console.log(groceryTotal);
 console.log(groceryAverage);
 
 console.log("You have spent a total of $"+groceryTotal+" on groceries over 5 weeks. That is an average of $"+groceryAverage+" per week");
+
+
+
+    //Discounts/
+
+var itemPrice = 40;
+var discPercent = 10;
+var itemDiscription = "Milk";
+var normTax = 1.08375;
+var discValue = (discPercent / 100) * itemPrice;
+var calcNotax = itemPrice - discValue;
+var calcTax = calcNotax * normTax;
+
+console.log("Your "+itemDiscription+" was originally $"+itemPrice+", but after a "+discPercent+"% discount, it is now $"+calcNotax+" without tax and $"+calcTax+"with tax");
+
